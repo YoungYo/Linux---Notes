@@ -1,3 +1,7 @@
+<font color=#0099ff size=7 face="黑体">目录</font>
+
+[TOC]
+
 在 Linux 中搜索文件有两个常用的命令，一个是 find，另一个是 locate。首先来介绍一下 find，find 命令的语法是：
 
 find [搜索路径] [匹配条件]
