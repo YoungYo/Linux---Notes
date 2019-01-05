@@ -71,7 +71,7 @@ find /etc -size +163840 -a -size -204800
 ```shell
 find /etc -name init* -a -type f
 ```
-![](images\Linux 文件搜索命令 —— find\2019-01-03_201750.png)
+![](https://raw.githubusercontent.com/YoungYo/Linux---Notes/master/images/Linux%20%E6%96%87%E4%BB%B6%E6%90%9C%E7%B4%A2%E5%91%BD%E4%BB%A4%20%E2%80%94%E2%80%94%20find/2019-01-03_201750.png)
 
 # 8. 对搜索结果执行操作
 ## 8.1 -exec
@@ -88,7 +88,7 @@ find /etc -name inittab -exec ls -l {} \;
 ## 8.2 -ok
 如果把「-exec」换成「-ok」，那么在对每个文件执行操作之前，都会询问你是否要执行。
 
-![](images\Linux 文件搜索命令 —— find\2019-01-03_223738.png)
+![](https://raw.githubusercontent.com/YoungYo/Linux---Notes/master/images/Linux%20%E6%96%87%E4%BB%B6%E6%90%9C%E7%B4%A2%E5%91%BD%E4%BB%A4%20%E2%80%94%E2%80%94%20find/2019-01-03_223738.png)
 
 
 # 9. 根据文件的 i 节点查找 -num
@@ -113,5 +113,5 @@ updatedb
 然后再去搜索刚才创建的文件，就可以搜的到了。
 
 欢迎关注我的微信公众号，扫描下方二维码或微信搜索：AProgrammer，就可以找到我，我会持续为你分享 IT 技术。
-![](images\微信公众号二维码.jpg)
+![](https://raw.githubusercontent.com/YoungYo/Linux---Notes/master/images/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
 
