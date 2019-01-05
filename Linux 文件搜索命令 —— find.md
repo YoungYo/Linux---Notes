@@ -104,13 +104,23 @@ find 命令已经如此强大，为什么还需要 locate呢？因为 find 命�
 ```shell
 locate init
 ```
-这条命令会把所有包含 init 的文件或目录都搜索出来。
+这条命令会把所有包含 init 的文件或目录都搜索出来，注意，locate 后面直接跟文件名的话，是区分大小写的，要想让它在查找过程中不区分大小写，可以加一个选项「-i」，就像下面这样：
+
+```shell
+locate -i init
+```
+
+
 
 locate 命令虽然搜索速度快，但是如果创建一个文件后立马搜索这个文件会搜不到，因为这个文件还没被更新到文件数据库里去。这个时候可以手动更新一下数据库，用下面这个命令：
 ```shell
 updatedb
 ```
 然后再去搜索刚才创建的文件，就可以搜的到了。
+
+## 10.1 locate 的缺点
+
+在使用 locate 的时候，要注意一个问题，就是 locate 是找不到存放在 tmp 目录下的文件的，因为 tmp 目录不在 locate 的查找范围之内。
 
 欢迎关注我的微信公众号，扫描下方二维码或微信搜索：AProgrammer，就可以找到我，我会持续为你分享 IT 技术。
 ![](https://raw.githubusercontent.com/YoungYo/Linux---Notes/master/images/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
