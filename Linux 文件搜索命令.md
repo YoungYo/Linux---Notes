@@ -2,13 +2,15 @@
 
 [TOC]
 
-在 Linux 中搜索文件有几个常用的命令： find、locate、which、whereis、grep 等。首先来介绍一下 find，find 命令的语法是：
-
-find [搜索路径] [匹配条件]
-
-find 命令的选项非常多，常用的有这么几个：
+在 Linux 中搜索文件有几个常用的命令： find、locate、which、whereis、grep 等。
 
 # 1. find
+
+首先来介绍一下 find，find 命令的语法是：
+
+find [搜索路径] \[匹配条件]
+
+find 命令的选项非常多，常用的有这么几个：
 
 ## 1.1 根据名称查找
 
