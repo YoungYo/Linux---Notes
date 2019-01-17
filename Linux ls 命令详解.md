@@ -40,3 +40,8 @@ ls 最简单的用法就是直接在某一目录下输入 ls，然后回车，�
 
 第 5 部分是文件大小。默认单位是字节，也就是 B。这样看起来自然不是很直观，所以 Linux 为我们提供了另一个选项，h。h 是 human 的缩写，也就是人性化显示文件信息。h 选项需要和 l 选项一起使用，单独使用 h 选项没有任何效果。
 
+![](https://raw.githubusercontent.com/YoungYo/Linux---Notes/master/images/Linux%20ls%20%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/2019-01-16_190055.png)
+
+第 6 部分是文件的最后修改时间。
+
+第 7 部分是文件名。
